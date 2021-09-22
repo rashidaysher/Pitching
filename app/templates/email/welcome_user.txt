@@ -1,0 +1,3 @@
+Greetingd {{user.username}}
+We have seen that you have just signed up with us, This is the beginning of change
+Karibu sana.
