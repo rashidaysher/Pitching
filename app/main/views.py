@@ -14,7 +14,7 @@ def index():
     View root page function that returns the index page and its data
     '''
 
-    title = 'Home - Welcome to Perfect Pitch'
+    title = 'Home - Welcome to the Pitching App'
 
     # Getting reviews by category
     business_piches = Pitch.get_pitches('business')
