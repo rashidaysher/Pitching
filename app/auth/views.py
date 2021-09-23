@@ -17,7 +17,7 @@ def login():
 
         flash('Invalid username or Password')
 
-    title = "Pitch Perfect login"
+    title = "Acing Pitching login"
     return render_template('auth/login.html',login_form = login_form,title=title)
 
 @auth.route('/register',methods = ["GET","POST"])
@@ -28,7 +28,7 @@ def register():
         db.session.add(user)
         db.session.commit()
 
-        mail_message("Welcome to Pitch Perfect","email/welcome_user",user.email,user=user)
+        mail_message("Welcome to Acing Pitches","email/welcome_user",user.email,user=user)
 
         return redirect(url_for('auth.login'))
         title = "New Account"
