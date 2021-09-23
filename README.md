@@ -1,19 +1,26 @@
+### Table of Content
+
 ## built-with
+## project-description
+## getting-started
+## installation
+## contact
+## licence
 
 
 
 
 
-##                               The News Application
+##                               The Pitching Application
 
 ##                               Developed by: Aisha Rashid
 
 
 
 ### Project Description
-<img src = "app/static/images/Screenshot from 2021-09-15 23-32-35.jpg" >
+<img src = "app/static/images/Screenshot from 2021-09-23 13-13-46.png" >
 
-This is an application that consumes an API, in this case, a news API. It allows a user watch news from all sources in any language,It is a way of getting up to date with what they have missed earlier. News can be gotten from any news source all around, different types of news as well from business to breaking news to entertainment.
+This is an application that consumes an API, it allows one to get qiuck pitches for as short as a period of 60seconds. This is well known as the elevatoer pitch. A user can be able to post a pitch that worked for them , delete it and even comment on others that has helped them posted by other people. 
 
 
 #### Built With:
@@ -26,14 +33,14 @@ This is an application that consumes an API, in this case, a news API. It allows
 ### Getting Started
 
  ### Installation
-* Get a free API Key at https://newsapi.org/
+* Download the zip file and extract it in your folder or
 
 * Clone the repo
 * git clone https://github.com/rashidaysher/news-app
 
-* Enter your API in config.py
+* Enter your database uri
 
-* SOURCE_API_KEY = 'ENTER YOUR API';
+* Get your secret key and start coding
 
 
 
@@ -43,7 +50,8 @@ This is an application that consumes an API, in this case, a news API. It allows
 #### pip -r requirements.txt
 
 
-
+## known Bugs
+* none
 
 #### License
 Distributed under the MIT License. 
@@ -52,4 +60,4 @@ Distributed under the MIT License.
  ## Contact
 Aisha Rashid - @rashidaisha.ara@gmail.com
 
-Project Link: https://github.com/rashidaysher/news-app
+Project Link: https://github.com/rashidaysher/pitching
