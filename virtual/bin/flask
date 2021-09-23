@@ -1,4 +1,4 @@
-#!/home/moringaaccess/Documents/moringa_pre-prep_projects/IPs/Pitching/virtual/bin/python3
+#!/home/moringaaccess/Documents/moringa_pre-prep_projects/IPs/Pitching/virtual/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -17,12 +17,12 @@ def index():
     title = 'Home - Welcome to the Pitching App'
 
     # Getting reviews by category
-    business_piches = Pitch.get_pitches('business')
+    interview_piches = Pitch.get_pitches('interview')
     product_piches = Pitch.get_pitches('product')
     promotion_pitches = Pitch.get_pitches('promotion')
 
 
-    return render_template('index.html',title = title, business = business_piches, product = product_piches, promotion = promotion_pitches)
+    return render_template('index.html',title = title, business = interview_piches, product = product_piches, promotion = promotion_pitches)
 
 @main.route('/user/<uname>')
 def profile(uname):
