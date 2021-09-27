@@ -6,11 +6,12 @@ class Config:
     '''
     SECRET_KEY = os.environ.get('SECRET_KEY')
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://postgres:new_password@localhost/postgres'
+    SQLALCHEMY_TRACK_MODIFICATIONS=False
     UPLOADED_PHOTOS_DEST ='app/static/photos'
     
 
     # email configurations
-    MAIL_SERVER = 'smtp.gmail.com, 587'
+    MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
     MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
